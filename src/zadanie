@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int n, k, s, i;
+double r, sum, imax, imin, c;
+double iminn(int* i, int n)
+{
+    imin = i[0];
+    for (k = 0; k < n; k++)
+        if (imin > i[k])
+        {
+            imin = i[k];
+        }
+    return imin;
+}
+
